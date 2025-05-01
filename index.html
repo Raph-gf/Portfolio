@@ -3,9 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <script type="module" src="script.js" defer></script>
-    <title>Web Portfolio for Junior Dev</title>
+    <title>✨ Web Portfolio for Junior Dev Raphael Garnier--Fagour ✨</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Hii 👋</h1>
+      <nav>
+        <a
+          class="header__link"
+          href="https://www.linkedin.com/in/garnierfagour/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin icons-color"></i>
+        </a>
+        <a
+          class="header__link"
+          href="https://github.com/Raph-gf?tab=repositories"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github icons-color-github"></i>
+        </a>
+      </nav>
+      <div class="profile-img">
+        <img src="./img/Raphael_img.jpeg" alt="Profile-Picture" " />
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="home" aria-label="Présentation personnelle">
+        <div class="home-content">
+          <p class="home__presentation-paragraph">
+            Bonjour, je suis <strong>Raphaël Garnier-Fagour</strong>,<span
+              class="highlight"
+            >
+              développeur web junior determiner et passionné.</span
+            >
+            Après une reconversion réfléchie, j’ai choisi le développement web
+            comme nouvelle voie professionnelle.
+            <em> Bienvenue sur mon portfolio ! </em>
+          </p>
+        </div>
+      </section>
+
+      <section class="about-me">
+        <h2 class="about-me__title">À propos de moi</h2>
+        <div class="about-me__text--first">
+          <p class="about-me__paragraph">
+            Après une profonde introspection sur ma carrière, j’ai décidé de me
+            lancer dans une voie qui me stimule vraiment : le développement web.
+            Pour cela, j’ai suivi une formation certifiante reconnue par l'État
+            français « Développeur Web et Web Mobile » (titre RNCP de niveau 5)
+            chez Simplon.co, au terme de laquelle j’ai été diplômé. Au cours de
+            cette formation, j’ai acquis des compétences solides en :
+          </p>
+        </div>
+        <div class="about-me__skills">
+          <ul>
+            <li class="about-me__skills--li">HTML, CSS, JavaScript</li>
+            <li class="about-me__skills--li">React.js</li>
+            <li class="about-me__skills--li">Node.js, Express.js</li>
+            <li class="about-me__skills--li">MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="about-me__text--second">
+          <p class="about-me__paragraph">
+            Toujours curieux et désireux d'approfondir mes connaissances, je
+            poursuis actuellement une formation autodidacte sur
+            <strong>TypeScript, Next.js, Prisma et PostgreSQL.</strong> Je suis
+            aujourd’hui à la recherche de ma première expérience professionnelle
+            : CDD, CDI, stage ou alternance. Je suis prêt à m'investir
+            pleinement pour continuer à apprendre, progresser et contribuer à
+            des projets concrets.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; By Raphael Garnier--Fagour , Mention légale ....</p>
+    </footer>
+  </body>
 </html>

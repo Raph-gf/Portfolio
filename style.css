@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  /* background-color: black; */
+  margin: 20px 40px;
+}
+h1,
+h2 {
+  color: #579536da;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.icons-color {
+  color: #0b65c2;
+}
+.icons-color-github {
+  color: black;
+}
+.icons-color:active {
+  color: #0b65c5;
+}
+
+.icons-color:hover {
+  font-size: larger;
+}
+
+img {
+  border: 5px solid #f7f7f7;
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
+.about-me {
+  margin: 20px 0px;
+}
+.about-me__text--first {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+.about-me__text--second {
+  padding: 20px 0px;
+}
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 22px;
+  /* color: white; */
+  margin-bottom: 13px;
+}
+li:first-child {
+  font-size: 25px;
+}
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+li:nth-child(2) {
+  color: rgba(186, 13, 13, 0.579);
+}
+
+/* styling links */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.about-me__skills--li {
+  font-size: 20px;
+  font-weight: bold;
+}
