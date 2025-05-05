@@ -145,7 +145,7 @@ header i {
   height: auto;
   padding: 2rem 3rem;
   visibility: visible;
-  transform: translateY(20px);
+  transform: translateY(30px);
 }
 
 .menu-burger li {
@@ -322,7 +322,7 @@ a:link {
   height: 100% !important;
 }
 
-/* Styles pour le wrapper de la carte */
+/* Styles pour le wrapper de la carte google */
 .map-wrapper {
   margin: 1rem 0;
   text-align: center;
@@ -343,6 +343,7 @@ a:link {
   justify-content: center;
   gap: 0.3rem;
 }
+
 .copyright {
   grid-column: 1 / -1;
   text-align: center;
@@ -350,6 +351,7 @@ a:link {
   border-top: 1px solid #333;
   margin-top: 1rem;
 }
+
 .copyright p {
   color: rgba(254, 243, 223, 1);
 }
