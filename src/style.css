@@ -34,6 +34,11 @@ p {
   color: #444;
 }
 
+li span {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
 img:not(.footer__map-img, .header-logo__img, .footer-logo__img) {
   width: 40rem;
   height: auto;
@@ -46,8 +51,23 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8rem;
+  height: 9.6rem;
   padding: 0rem 2rem;
   z-index: 99;
+  transition: all 0.3s;
+}
+
+.sticky header {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  background-color: rgba(253, 224, 176);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
 }
 
 header img {
@@ -89,6 +109,11 @@ header i {
   gap: 3rem;
 }
 
+.social__icons--link {
+  display: flex;
+  align-items: center;
+}
+
 .social__icons nav i {
   font-size: 2.4rem;
   gap: 3rem;
@@ -109,6 +134,11 @@ header i {
   flex-direction: column;
   align-items: center;
 }
+.menu span {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #444;
+}
 
 .burger {
   background: none;
@@ -117,10 +147,6 @@ header i {
   cursor: pointer;
   transition: all 0.3s;
   font-size: 2;
-}
-
-.burger i {
-  font-size: 3rem;
 }
 
 .menu-burger {
@@ -154,6 +180,11 @@ header i {
   list-style: none;
   margin-bottom: 2rem;
   font-size: 1.6rem;
+}
+.link-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #444;
 }
 
 .menu-burger li:nth-child(4) {
