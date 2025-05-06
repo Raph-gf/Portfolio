@@ -339,18 +339,20 @@ a:link {
 }
 
 .footer__map-container {
-  height: 40rem;
   position: relative;
+  width: 100%;
+  height: 40rem; /* hauteur par défaut sur desktop */
   overflow: hidden;
   border-radius: 0.8rem;
-  background: #f0f0f0; /* Couleur de fond temporaire */
+  background: #f0f0f0;
 }
 
 .footer__map-img {
-  border: none !important;
-  border-radius: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  object-fit: cover;
 }
 
 /* Styles pour le wrapper de la carte google */
@@ -361,7 +363,7 @@ a:link {
 
 .map-caption {
   font-size: 0.9rem;
-  color: #666;
+  color: rgba(254, 243, 223, 1);
   margin-bottom: 0.5rem;
   font-style: italic;
 }
@@ -369,6 +371,7 @@ a:link {
 .map-location {
   font-size: 0.8rem;
   margin-top: 0.5rem;
+  color: rgba(254, 243, 223, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -456,7 +459,7 @@ h2::first-letter {
 /*  MEDIA QUERIES  */
 @media (max-width: 64em) {
   html {
-    font-size: 56.25;
+    font-size: 56.25%;
   }
 
   h2 {
@@ -501,12 +504,23 @@ h2::first-letter {
   a {
     text-align: center;
   }
+
+  /* ➕ Ajustement de la hauteur de la carte */
+  .footer__map-container {
+    height: 30rem;
+  }
 }
 
 @media (max-width: 57em) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
+
+  /* ➕ Ajustement de la carte sur mobile */
+  .footer__map-container {
+    height: 35rem;
+  }
+
   .projects {
     display: flex;
     flex-direction: column-reverse;
@@ -543,6 +557,9 @@ h2::first-letter {
 
 @media (max-width: 26em) {
   html {
-    font-size: 37%;
+    font-size: 30%;
+  }
+  .footer__map-container {
+    height: 28rem;
   }
 }
