@@ -52,7 +52,7 @@ header {
   align-items: center;
   margin-bottom: 8rem;
   height: 9.6rem;
-  padding: 0rem 2rem;
+  padding: 0rem 3rem;
   z-index: 99;
   transition: all 0.3s;
 }
@@ -505,7 +505,6 @@ h2::first-letter {
     text-align: center;
   }
 
-  /* ➕ Ajustement de la hauteur de la carte */
   .footer__map-container {
     height: 30rem;
   }
@@ -516,7 +515,6 @@ h2::first-letter {
     font-size: 40%;
   }
 
-  /* ➕ Ajustement de la carte sur mobile */
   .footer__map-container {
     height: 35rem;
   }

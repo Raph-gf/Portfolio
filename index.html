@@ -20,7 +20,7 @@
     <link rel="icon" href="/img/logo_Raphael.webp" type="image/x-icon" />
 
     <script type="module" src="./src/js/script.js" defer></script>
-    <title>✨ Web Portfolio for Junior Dev Raphael Garnier--Fagour ✨</title>
+    <title>Junior Dev Raphael Garnier--Fagour &mdash; Portfolio</title>
   </head>
   <body>
     <header>
@@ -45,60 +45,59 @@
       </section>
 
       <div class="menu">
-
         <button class="burger">
           <i class="fa-solid fa-bars"></i>
         </button>
-        
-       
-          <div class="menu-burger menu-burger--hidden ">
-            <ul>
-              <li> <i class="fa-solid fa-briefcase header__projects-icon"></i>
-                <a href="project.html" target="_blank" class="header__resume--pdf">Projects</a></li>
 
-                <li>
-                  <i class="fa-solid fa-user header__resume--icon"></i>
-                  <a
-                  href="/img/CV_Développeur_Web_Junior .pdf"
-                  target="_blank"
-                  class="header__resume--pdf"
-                  aria-label="Raphael profile picture"
-                  >Resume</a>
-                </li>
+        <div class="menu-burger menu-burger--hidden">
+          <ul>
+            <li>
+              <i class="fa-solid fa-briefcase header__projects-icon"></i>
+              <a href="project.html" target="_blank" class="header__resume--pdf"
+                >Projects</a
+              >
+            </li>
 
-                <li>
-                  <a
-                  class="social__icons--link"
-                  aria-label="Find me on linkedin"
-                  href="https://www.linkedin.com/in/garnierfagour/"
-                  target="_blank"
-                >
-                  <i class="fab fa-linkedin icons-color-linkedin"></i>
-                  <span class="link-text">Linkedin</span>
-                </a>
-              </li>
+            <li>
+              <i class="fa-solid fa-user header__resume--icon"></i>
+              <a
+                href="/img/CV_Développeur_Web_Junior .pdf"
+                target="_blank"
+                class="header__resume--pdf"
+                aria-label="Raphael profile picture"
+                >Resume</a
+              >
+            </li>
 
-                <li>
-                  <a
-                  class="social__icons--link"
-                  aria-label="Check my projects on github"
-                  href="https://github.com/Raph-gf?tab=repositories"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-github icons-color-github"></i>
-                  <span class="link-text">Github</span>
-                </a>
-              </li>
+            <li>
+              <a
+                class="social__icons--link"
+                aria-label="Find me on linkedin"
+                href="https://www.linkedin.com/in/garnierfagour/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin icons-color-linkedin"></i>
+                <span class="link-text">Linkedin</span>
+              </a>
+            </li>
 
-              </ul>
-            </div>
-         
+            <li>
+              <a
+                class="social__icons--link"
+                aria-label="Check my projects on github"
+                href="https://github.com/Raph-gf?tab=repositories"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github icons-color-github"></i>
+                <span class="link-text">Github</span>
+              </a>
+            </li>
+          </ul>
         </div>
-      
+      </div>
 
       <!-- Section Icones Sociales + Projets + CV -->
       <section class="header__project-resume">
-          
         <div class="social__icons">
           <nav aria-label="Réseaux sociaux">
             <a
@@ -121,7 +120,9 @@
         </div>
         <div class="header__projects">
           <i class="fa-solid fa-briefcase header__projects-icon"></i>
-          <a href="project.html" target="_blank" class="header__resume--pdf">Projects</a>
+          <a href="/project.html" target="_blank" class="header__resume--pdf"
+            >Projects</a
+          >
         </div>
 
         <div class="header__resume">
@@ -131,181 +132,188 @@
             target="_blank"
             class="header__resume--pdf"
             aria-label="Raphael profile picture"
-            >Resume / CV</a>
+            >Resume / CV</a
+          >
         </div>
       </section>
     </header>
 
+    <!-- CONTAINER MIDDLE -->
+    <div class="container__middle">
+      <section class="home" aria-label="Présentation personnelle">
+        <div class="home-content">
+          <span class="home__presentation-firstname">Raphaël </span><br />
+          <span class="home__presentation-lastname">Garnier-Fagour</span><br />
+          <p class="highlight">
+            Développeur Junior Frontend déterminer et passionné.
+          </p>
+        </div>
+        <div class="home__profile-picture">
+          <img
+            class="home__profile-picture--img"
+            src="/img/Image_Portfolio_Raphael - copie 2.webp"
+            alt="Photo de profile"
+          />
+        </div>
+      </section>
 
-   
-      <!-- CONTAINER MIDDLE -->
-      <div class="container__middle">
-        <section class="home" aria-label="Présentation personnelle">
-          <div class="home-content">
-            <span class="home__presentation-firstname">Raphaël </span><br>
-            <span class="home__presentation-lastname">Garnier-Fagour</span
-            ><br />
-            <p class="highlight">
-              Développeur Junior Frontend déterminer et passionné.
-            </p>
-          </div>
-          <div class="home__profile-picture">
+      <section class="about-me">
+        <h2 class="about-me__title">À propos de moi</h2>
+        <div class="about-me__text">
+          <p class="about-me__paragraph">
+            Après une profonde introspection sur ma carrière, j’ai décidé de me
+            lancer dans une voie qui me stimule vraiment : le développement web.
+            Pour cela, j’ai suivi une formation certifiante reconnue par l'État
+            français « Développeur Web et Web Mobile » (titre RNCP de niveau 5
+            équivalent BAC+2) chez Simplon.co, au terme de laquelle j’ai été
+            diplômé.
+          </p>
+        </div>
+
+        <h2 class="about-me__skills--title">Stack Technique</h2>
+        <div class="about-me__skills">
+          <div class="about-me__skills--frontend">
+            <h3 class="about-me__skills--frontend">Frontend</h3>
             <img
-              class="home__profile-picture--img"
-              src="/img/Image_Portfolio_Raphael.webp"
-              alt="Photo de profile"
+              src="./img/HTML5.webp"
+              class="about-me__skills--frontend-icons--html fa-brands fa-html5"
+              alt="logo"
+            />
+            <img
+              src="./img/CSS3.webp"
+              class="about-me__skills--frontend-icons--css fa-brands fa-css3-alt"
+              alt="logo"
+            />
+            <img
+              src="./img/JavaScript.webp"
+              class="about-me__skills--frontend-icons--js fa-brands fa-square-js"
+              alt="logo"
+            />
+            <img
+              src="./img/React.webp"
+              class="about-me__skills--frontend-icons--react fa-brands fa-react"
+              alt="logo"
             />
           </div>
-        </section>
 
-        <section class="about-me">
-          <h2 class="about-me__title">À propos de moi</h2>
-          <div class="about-me__text">
-            <p class="about-me__paragraph">
-              Après une profonde introspection sur ma carrière, j’ai décidé de
-              me lancer dans une voie qui me stimule vraiment : le développement
-              web. Pour cela, j’ai suivi une formation certifiante reconnue par
-              l'État français « Développeur Web et Web Mobile » (titre RNCP de
-              niveau 5 équivalent BAC+2) chez Simplon.co, au terme de laquelle
-              j’ai été diplômé.
-            </p>
+          <div class="about-me__skills--backend">
+            <h3 class="about-me__skills--backend">Backend & Database</h3>
+            <img
+              src="./img/Node.js.webp"
+              class="about-me__skills--backend-icons--nodejs fa-brands fa-node"
+              alt="logo"
+            />
+            <img
+              src="./img/Express.webp"
+              class="about-me__skills--backend-icons--expressjs fa-brands fa-css3-alt"
+              alt="logo"
+            />
+            <img
+              src="./img/MongoDB.webp"
+              class="about-me__skills--backend-icons--mongodb"
+              alt="logo"
+            />
+            <img
+              src="./img/Mongoose.js.webp"
+              class="about-me__skills--backend-icons--mongoose fa-brands fa-react"
+              alt="logo"
+            />
           </div>
 
-          <h2 class="about-me__skills--title">Stack Technique</h2>
-          <div class="about-me__skills">
-            <div class="about-me__skills--frontend">
-              <h3 class="about-me__skills--frontend">Frontend</h3>
-              <img
-                src="./img/HTML5.png"
-                class="about-me__skills--frontend-icons--html fa-brands fa-html5"
-                alt="logo"
-              />
-              <img
-                src="./img/CSS3.png"
-                class="about-me__skills--frontend-icons--css fa-brands fa-css3-alt"
-                alt="logo"
-              />
-              <img
-                src="./img/JavaScript.png"
-                class="about-me__skills--frontend-icons--js fa-brands fa-square-js"
-                alt="logo"
-              />
-              <img
-                src="./img/React.png"
-                class="about-me__skills--frontend-icons--react fa-brands fa-react"
-                alt="logo"
-              />
-            </div>
-
-            <div class="about-me__skills--backend">
-              <h3 class="about-me__skills--backend">Backend & Database</h3>
-              <img
-                src="./img/Node.js.png"
-                class="about-me__skills--backend-icons--nodejs fa-brands fa-node"
-                alt="logo"
-              />
-              <img
-                src="./img/Express.png"
-                class="about-me__skills--backend-icons--expressjs fa-brands fa-css3-alt"
-                alt="logo"
-              />
-              <img
-                src="./img/MongoDB.png"
-                class="about-me__skills--backend-icons--mongodb"
-                alt="logo"
-              />
-              <img
-                src="./img/Mongoose.js.png"
-                class="about-me__skills--backend-icons--mongoose fa-brands fa-react"
-                alt="logo"
-              />
-            </div>
-
-            <div class="about-me__skills--other">
-              <h3 class="about-me__skills--other">Other</h3>
-              <img
-                src="./img/Git.png"
-                class="about-me__skills--other--git"
-                alt="logo"
-              />
-              <img
-                src="./img/NPM.png"
-                class="about-me__skills--other--npm"
-                alt="logo"
-              />
-              <img
-                src="./img/Postman.png"
-                class="about-me__skills--other--postman"
-                alt="logo"
-              />
-              <img
-                src="./img/Tailwind CSS.png"
-                class="about-me__skills--other--tailwind"
-                alt="logo"
-              />
-            </div>
+          <div class="about-me__skills--other">
+            <h3 class="about-me__skills--other">Other</h3>
+            <img
+              src="./img/Git.webp"
+              class="about-me__skills--other--git"
+              alt="logo"
+            />
+            <img
+              src="./img/NPM.webp"
+              class="about-me__skills--other--npm"
+              alt="logo"
+            />
+            <img
+              src="./img/Postman.webp"
+              class="about-me__skills--other--postman"
+              alt="logo"
+            />
+            <img
+              src="./img/Tailwind CSS.webp"
+              class="about-me__skills--other--tailwind"
+              alt="logo"
+            />
           </div>
+        </div>
 
-          <div class="about-me__text">
-            <p class="about-me__paragraph">
-              Toujours curieux et désireux d'approfondir mes connaissances, je
-              poursuis actuellement une formation autodidacte sur
-              <strong>TypeScript, Next.js, Prisma et PostgreSQL.</strong> 
-              Je suis aujourd’hui à la recherche de ma première expérience
-              professionnelle : CDD, CDI, stage ou alternance. 
-              Je suis prêt à m'investir pleinement pour continuer à apprendre,
-              progresser et contribuer à des projets concrets.
-            </p>
-          </div>
-        </section>
-      </div>
+        <div class="about-me__text">
+          <p class="about-me__paragraph">
+            Toujours curieux et désireux d'approfondir mes connaissances, je
+            poursuis actuellement une formation autodidacte sur
+            <strong>TypeScript, Next.js, Prisma et PostgreSQL.</strong>
+            Je suis aujourd’hui à la recherche de ma première expérience
+            professionnelle : CDD, CDI, stage ou alternance. Je suis prêt à
+            m'investir pleinement pour continuer à apprendre, progresser et
+            contribuer à des projets concrets.
+          </p>
+        </div>
+      </section>
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer__content">
         <div class="footer__contact">
           <p>
-            🔍  Actuellement disponible pour : CDI / CDD Stage Alternance <br> (disponible en télétravail ou présentiel)
-          </p><br>
-          <p>💡  <em>Vous avez un projet, une idée ou simplement envie d’échanger ?</em><br>
-            N’hésitez pas à me contacter, je serai ravi d’échanger avec vous.</p><br>
-            
-            <p>Vous pouvez m’écrire directement par e-mail en utilisant le lien ci-dessous. Au plaisir de vous lire !</p> <br>
-            <div class="footer__contact-email-logo">
-              <div>
+            🔍 Actuellement disponible pour : CDI / CDD Stage Alternance <br />
+            (disponible en télétravail ou présentiel)
+          </p>
+          <br />
+          <p>
+            💡
+            <em
+              >Vous avez un projet, une idée ou simplement envie d’échanger
+              ?</em
+            ><br />
+            N’hésitez pas à me contacter, je serai ravi d’échanger avec vous.
+          </p>
+          <br />
 
-                <i class="fa-solid fa-envelope header__email-icon">
-                </i>
-                
-                <a
+          <p>
+            Vous pouvez m’écrire directement par e-mail en utilisant le lien
+            ci-dessous. Au plaisir de vous lire !
+          </p>
+          <br />
+          <div class="footer__contact-email-logo">
+            <div>
+              <i class="fa-solid fa-envelope header__email-icon"> </i>
+
+              <a
                 href="mailto:raphaelgarnier1997@gmail.com"
                 class="header__email-address"
                 aria-label="Send me a email"
-                > <em> raphaelgarnier1997@gmail.com</em> </a
-                > <br> 
-              </div>
-            
-            <img
-            class="footer-logo__img"
-            src="/img/logo_Raphael.webp"
-            alt="Logo du Developpeur"
-            />
-
+              >
+                <em> raphaelgarnier1997@gmail.com</em>
+              </a>
+              <br />
             </div>
-         
+
+            <img
+              class="footer-logo__img"
+              src="/img/logo_Raphael.webp"
+              alt="Logo du Developpeur"
+            />
+          </div>
         </div>
 
-        
         <div class="map-wrapper">
           <p class="map-caption">Localisation de mon activité principale</p>
           <div class="footer__map-container" id="map-container"></div>
           <p class="map-location">📍 Based in Paris, France</p>
         </div>
-        
+
         <div class="copyright">
           <p class="copyright__paragraph"></p>
         </div>
-      </div>
       </div>
     </footer>
   </body>
