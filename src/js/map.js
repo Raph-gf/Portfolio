@@ -1,6 +1,6 @@
 const container = document.querySelector(".footer__map-container");
-const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_KEY;
-const zoom = import.meta.env.VITE_MAP_DEFAULT_ZOOM;
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_KEY || "";
+const zoom = import.meta.env.VITE_MAP_DEFAULT_ZOOM || "10";
 const address = "Paris, France";
 const size = "600x400";
 

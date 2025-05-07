@@ -14,8 +14,6 @@ const displayMenu = (e) => {
 };
 
 const closeMenu = (e) => {
-  console.log(icon);
-
   if (!menuBurger.contains(e.target) && e.target !== btnMenu) {
     menuBurger.classList.add("menu-burger--hidden");
   }
@@ -35,5 +33,28 @@ const obs = new IntersectionObserver(
 );
 obs.observe(document.querySelector(".home"));
 
+// Smooth scroling
+
+const projectLink = document.querySelectorAll(".menu-header__resume--project");
+console.log(projectLink);
+
+projectLink.forEach((link) => {
+  link.addEventListener("click", function (e) {
+    console.log(e.target);
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    if (href === "#") window.scrollTo({ top: 0, behavior: "smooth" });
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      console.log(sectionEl);
+      sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    if (link.classList.contains("menu-header__resume--project"))
+      menuBurger.classList.add("menu-burger--hidden");
+  });
+});
+
+// porjectLink.addEventListener("click", scrollToProjectsSection);
 document.addEventListener("click", closeMenu);
 btnMenu.addEventListener("click", displayMenu);
