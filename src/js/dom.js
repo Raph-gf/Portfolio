@@ -34,9 +34,7 @@ const obs = new IntersectionObserver(
 obs.observe(document.querySelector(".home"));
 
 // Smooth scroling
-
 const projectLink = document.querySelectorAll(".menu-header__resume--project");
-console.log(projectLink);
 
 projectLink.forEach((link) => {
   link.addEventListener("click", function (e) {
@@ -55,6 +53,5 @@ projectLink.forEach((link) => {
   });
 });
 
-// porjectLink.addEventListener("click", scrollToProjectsSection);
 document.addEventListener("click", closeMenu);
 btnMenu.addEventListener("click", displayMenu);
